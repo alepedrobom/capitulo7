@@ -4,7 +4,6 @@ import java.util.Locale;
 import java.util.Scanner;
 
 import entities.Account;
-import util.Calculator;
 
 public class Conta {
 
@@ -45,15 +44,6 @@ public class Conta {
 		System.out.print("Digite o saque: ");
 		double withdrawValue = sc.nextDouble();
 		account.withdraw(withdrawValue);
-		
-		System.out.println();
-		System.out.println(account);
-		System.out.println("1");
-		System.out.println("2");
-		System.out.println("333");
-		System.out.println("4444");
-		
-				
 		
 		sc.close();
 	}
